@@ -11,7 +11,7 @@ export default function App() {
     setToken(data.token);
     setUser(data.user);
   }
-
+ 
   function handleLogout() {
     setToken(null);
     setUser(null);
