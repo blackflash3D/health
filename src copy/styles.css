@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #eef2f7;
+    color: #333;
+  }
+  
+  .app main {
+    max-width: 500px;
+    margin: 120px auto 40px;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: #1e88e5;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .topbar .logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .topbar-buttons button {
+    margin-left: 12px;
+    padding: 6px 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #1e88e5;
+  }
+  
+  .auth-card, .card {
+    background: #fff;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  
+  .auth-card h2, .card h2 {
+    margin-bottom: 16px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .primary {
+    background-color: #1e88e5;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .error {
+    color: #d32f2f;
+    text-align: center;
+    margin-top: 8px;
+  }
+  
